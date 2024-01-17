@@ -1,5 +1,5 @@
 # quran-player
-This is a simple Quran Player website where you can listen to all 114 surahs from the Holy Quran. The user interface is designed to be straightforward and easy to use. Simply select the surah you want to listen to and it will automatically start playing. [preview👁️‍🗨️](https://quran-player-app.netlify.app/)
+This is a simple Quran Player website where you can listen to all 114 surahs from the Holy Quran. The user interface is designed to be straightforward and easy to use. Simply select the surah you want to listen to and it will automatically start playing. [preview👁️‍🗨️](https://introverthalalthoughts.netlify.app/)
 
 ## Features
 The main features of this Quran Player website are:
