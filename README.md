@@ -30,4 +30,4 @@ This is a personal project and contributions are not expected. However, if you w
 The Quranic text used in this website was sourced from Al Quran Cloud API. The audio recitation was sourced from Free Quran MP3.
 
 ## License
-This Quran Player website is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for more information.
+This Introvert Halal Thoughts website is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for more information.
