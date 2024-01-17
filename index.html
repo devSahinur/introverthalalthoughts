@@ -4,41 +4,43 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:image" content="Halal-Logo.jpg" />
-    <meta
-      name="description"
-      content="An Islamic media platform with an aim to spread Islam and inspire, inform & empower Muslims. Keep supp"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
     <title>All Surah by Introvert Halal Thoughts</title>
+
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+
+    <!-- font awesome kit -->
+    <script
+      src="https://kit.fontawesome.com/1694914d74.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="/style/style.css" />
   </head>
+
   <body>
-    <div class="container pt-5 pb-5">
-      <h2 class="text-center pb-3 pt-3">Click any surah to Play</h2>
+    <div class="container">
+      <div class="player">
+        <img
+          class="logo"
+          width="100px"
+          height="100px"
+          src="/Halal-Logo.jpg"
+          alt=""
+        />
 
-      <div class="btnWrapper d-flex justify-content-evenly pb-3">
-        <button id="stop" type="button" class="btn btn-secondary btn-lg">
-          Pause
-        </button>
-        <button id="strt" type="button" class="btn btn-secondary btn-lg">
-          Play
-        </button>
+        <audio src="" class="quranPlayer" controls autoplay></audio>
+        <div class="buttons">
+          <div class="icon previous"><i class="fa-solid fa-backward"></i></div>
+          <!-- <div class="icon play"><i class="fa-solid fa-play"></i></div> -->
+          <div class="icon next"><i class="fa-solid fa-forward"></i></div>
+        </div>
       </div>
 
-      <div
-        id="all_sura"
-        class="d-flex flex-wrap justify-content-center justify-content-sm-between"
-      >
-        <audio id="audtg" type="audio/mpeg"></audio>
-      </div>
+      <div class="surahs"></div>
     </div>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <!-- JS file -->
+    <script src="/js/main.js"></script>
   </body>
 </html>
